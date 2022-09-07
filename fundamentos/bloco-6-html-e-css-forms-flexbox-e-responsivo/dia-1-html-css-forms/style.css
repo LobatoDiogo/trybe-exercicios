@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(2, 5, 0, 0.897);
+    line-height: 1.5;
+    font-family: monospace;
+}
+
+.header-show {
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(238, 241, 245);
+    width: 80%;
+    margin: 30px auto;
+    border: 2px solid grey;
+    padding: 20px;
+    color: green; 
+}
+
+fieldset {
+    border: 2px solid grey;
+    background-color: rgb(238, 241, 245);
+    border-radius: 5px;
+    width: 80%;
+    padding: 3%;
+    margin: 0 auto;    
+}
+
+#full-name {
+    border-radius: 3px;
+    width: 100%;
+    border: 1px solid rgba(209, 216, 218, 0.637);
+    padding: 5px;
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+#email {
+    border-radius: 3px;
+    width: 100%;
+    border: 1px solid rgba(209, 216, 218, 0.637);
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;        
+}
+
+.dest-form {
+    line-height: 2;
+    padding: 1px;
+    margin-bottom: 10px;   
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    margin-top: 5px;
+    height: 150px;
+}
+
+#date {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+ }
+
+#select-date {
+    padding: 5px;    
+}
+
+ .checkbox {
+    margin: 5px;
+    width: 100%;
+    line-height: 1,5;
+ }
+
+ button {
+    padding: 8px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;         
+ }
